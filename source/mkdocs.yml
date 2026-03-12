@@ -1,6 +1,17 @@
-site_name: My Docs
+site_name: Almaz's Shelter
+site_url: https://Aqua223.github.io/
+site_author: "Baybakov Almaz"
+site_description: Сайт-портфолио студента ИТМО с лабораторными работами и информацией об авторе
+
 nav:
-    - Home: index.md
-    - About: about.md
+    - Главная: index.md
+    - Об авторе: about.md
+    - Лабораторные работы:
+        - Список: labs/labs.md
+        - Лаба 1: labs/lab_1.md
+        - Лаба 2: labs/lab_2.md
+    - Шутки: jokes.md
+    - Контакты: contacts.md
+
 theme:
   name: dracula
